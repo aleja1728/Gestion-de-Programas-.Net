@@ -1,0 +1,66 @@
+@{
+    Layout = "~/Views/Shared/Template/_Layaoutprivate.cshtml";
+}
+<div class="section-admin container-fluid">
+    <div class="traffic-analysis-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="white-box tranffic-als-inner">
+                        <h3 class="box-title"><small class="pull-right m-t-10 text-success last-month-sc cl-one"><i
+                                    class="fa fa-sort-asc"></i> 50% Segundo semestre</small>Nuevos cursos</h3>
+                        <div id="sparkline8"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="white-box tranffic-als-inner res-mg-t-30">
+                        <h3 class="box-title"><small class="pull-right m-t-10 text-danger last-month-sc cl-two"><i
+                                    class="fa fa-sort-desc"></i> 80% Mes pasado</small>Alumnos inscritos</h3>
+                        <div id="sparkline9"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="white-box tranffic-als-inner res-mg-t-30">
+                        <h3 class="box-title"><small class="pull-right m-t-10 text-success last-month-sc cl-three"><i
+                                    class="fa fa-sort-asc"></i> 20% Segundo semestre </small>Alumnos retirados</h3>
+                        <div id="sparkline10"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="product-sales-area mg-tb-30">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                        <div class="product-sales-chart">
+                            <div class="portlet-title">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="caption pro-sl-hd">
+                                            <span class="caption-subject text-uppercase"><b>Cursos impartidos</b></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="actions graph-rp">
+                                            <div class="btn-group" data-toggle="buttons">
+                                                <label class="btn btn-grey active">
+													<input type="radio" name="options" class="toggle" id="option1" checked="">Hoy</label>
+                                                <label class="btn btn-grey">
+													<input type="radio" name="options" class="toggle" id="option2">Semana</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="curved-line-chart" class="flot-chart-sts flot-chart curved-chart-statistic"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+</div>
